@@ -1,0 +1,30 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --font: 'Outfit', sans-serif;
+}
+
+html{
+    box-sizing: border-box1;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before{ box-sizing: inherit;}
+
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light-gray);
+}
+
+.card{
+    background-color: var(--White);
+}
+
+.card__img{
+    background-image: url(/);
+}
