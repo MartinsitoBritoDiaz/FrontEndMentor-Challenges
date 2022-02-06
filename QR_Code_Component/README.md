@@ -12,7 +12,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## Links
 
-
+https://frontendchallengesmbd.netlify.app/qr_code_component/
 
 ## Author
 
