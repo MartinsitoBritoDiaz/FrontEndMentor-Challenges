@@ -17,16 +17,15 @@ html{
 img{ max-width: 100%;}
 
 body{
-    font-family: var(--font);
-    background-color: var(--Light-gray);
-}
-
-.container{
+    
     display: grid;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: var(--font);
+    background-color: var(--Light-gray);
 }
+
 
 .card{
     width: 40rem;
