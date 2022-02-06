@@ -1,0 +1,35 @@
+:root{
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after, *::before{ box-sizing: inherit;}
+
+img{ max-width: 100%;}
+
+body{
+    
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    background-color: var(--Light-gray);
+}
+
+img{
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+.card{
+    width: 30rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: var(--Dark-blue);
+}
